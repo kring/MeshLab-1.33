@@ -56,7 +56,7 @@ win32-msvc2010:DEFINES	+= _CRT_SECURE_NO_DEPRECATE
 win32-msvc2012:DEFINES	+= _CRT_SECURE_NO_DEPRECATE
 CONFIG(release,debug | release){
 # Uncomment the following line to disable assert in mingw
-#DEFINES += NDEBUG
+DEFINES += NDEBUG
  }
 
 DESTDIR       = ../../distrib/plugins

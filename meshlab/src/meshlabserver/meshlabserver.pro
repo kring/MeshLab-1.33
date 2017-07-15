@@ -25,11 +25,11 @@ win32-msvc2008:  LIBS += -L../distrib -lcommon
 win32-msvc2010:  LIBS += -L../distrib -lcommon
 win32-msvc2012:  LIBS += -L../distrib -lcommon
 win32-g++:  LIBS += -L../distrib -lcommon
-linux-g++:  LIBS += -L../distrib -lcommon
+linux-g++:  LIBS += -L../distrib -lcommon -lGLU
 linux-g++:QMAKE_RPATHDIR += ../distrib
-linux-g++-32:  LIBS += -L../distrib -lcommon
+linux-g++-32:  LIBS += -L../distrib -lcommon -lGLU
 linux-g++-32:QMAKE_RPATHDIR += ../distrib
-linux-g++-64:  LIBS += -L../distrib -lcommon
+linux-g++-64:  LIBS += -L../distrib -lcommon -lGLU
 linux-g++-64:QMAKE_RPATHDIR += ../distrib
 #CONFIG (release,debug | release) {
 #	win32-msvc2005:release:  LIBS += -L../common/release -lcommon
