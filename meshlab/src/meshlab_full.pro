@@ -1,6 +1,4 @@
 #config += debug_and_release
-QMAKE_CXXFLAGS += -fpermissive
-CXXFLAGS += -fpermissive
 TEMPLATE      = subdirs
 CONFIG += ordered
 SUBDIRS       = common \
